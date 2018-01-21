@@ -1,0 +1,7 @@
+- alias: hasura
+  config:
+    configmap: controller-conf
+    namespace: litigation47-hasura
+  data: null
+  kubeContext: litigation47
+  name: litigation47
