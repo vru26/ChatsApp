@@ -37,11 +37,11 @@ sms:
           name: hasura-secrets
     twilio:
       from: "Vru"
-      accountSid: AC4310da01f0c103033396de3f54e90a18
+      accountSid:
         secretKeyRef:
           key: notify.twilio.accountsid
           name: hasura-secrets
-      authToken: efe910f82590e229cdd5fe629dea7ee3
+      authToken:
         secretKeyRef:
           key: notify.twilio.authtoken
           name: hasura-secrets
